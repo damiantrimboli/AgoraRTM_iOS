@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "AgoraRtmKit",
     defaultLocalization: "en",
-    platforms: [.iOS(.v9), .visionOS(.v1)],
+    platforms: [.iOS(.v13), .visionOS(.v1)],
     products: [
         .library(
             name: "AgoraRtmKit",
